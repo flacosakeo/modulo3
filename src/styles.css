@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+#iconos{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;    
+    
+}
+.container {
+    border-style: solid;
+    border-radius: 10px 10px 0 0;
+    border-color: rgb(252, 187, 187);
+    background-color: rgb(223, 197, 247);
+    font-family:fantasy ;
+    height: max-content;
+    width:auto;
+}
+img {
+    width: 1321px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+#mifoto{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px 60px 60px 60px;
+    left: 250px;
+    top: 260px;
+    border-style: solid;
+    border-color: rgb(252, 187, 187);
+}
+

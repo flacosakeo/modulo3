@@ -1,0 +1,31 @@
+<body style="background-color:rgb(246, 253, 207)">
+<h4 style="margin-left: 10px;"><a title={{mostrar_mas}} href="#" (click)="mostrarOcultar()">{{mensaje_enlace}} Datos Personales</a></h4>
+
+<div class="container" style="padding: 10px;" *ngIf= "mostrar">
+    <a title="Perfil de Facebook" href="https://www.facebook.com/eduardoruben.lazarte"><img src="assets/logo face.png" id="iconos" style="left:1150px; width: 50px; height: 50px;"></a>
+    <br><h1 style="margin-left: 15px;">{{nombre}}</h1><hr>
+    <table>
+        
+        <tr >
+            <td>    
+                <ul>
+                    
+                    <li><h3>{{titulo}}</h3></li>
+                    <li><h3>{{fullstackjr}}</h3></li>
+                
+                </ul>              
+            </td>
+    
+                <ul>
+                    <h4><u>DNI</u>: 30726244 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>CUIL</u>: 23-30726244-4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>F. DE NAC.</u>: 09/01/1984</h4>
+                    <h4><u>ESTADO CIVIL</u>: Juntado &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>DOMICILIO</u>: calle Lamadrid Nº112 - Centro</h4>
+                    <h4><u>CIUDAD</u>: San Salvador de Jujuy CP: 4600</h4>
+                    <h4><u>CELULAR</u>: 3885010974 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u>EMAIL</u>: flacosakeo@hotmail.com</h4>
+                    <h4>Me recibi en 2010 en el Instituto Superior Jujuy, mi experiencia programando es en Visual FoxPro 9 aunque nunca lo hice de manera laboral, mi experiencia se basa en desafios que yo mismo me proponia.</h4>
+                </ul>
+          
+        </tr>
+    </table>
+    <input type="hidden" name="texto" value="">
+</div>
+</body>

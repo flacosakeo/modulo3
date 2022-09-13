@@ -1,0 +1,71 @@
+<body style="background-color:rgb(246, 253, 207)">
+<h4 style="margin-left: 10px;"><a title={{mostrar_mas}} href="#" (click)="mostrarOcultar()">{{mensaje_enlace}} Contáctame</a></h4>
+    <div class="container" style="padding: 10px;" *ngIf= "mostrar">
+        
+            <div class="container-narrow">
+              <div class="text-center mb-5">
+                <h2 class="marker marker-center">Contáctame</h2>
+              </div>
+              <div class="row">
+                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="bg-light my-2 p-3 pt-2"><form action="https://formspree.io/your@email.com"
+              method="POST">
+              <div class="form-group my-2">
+                <label for="name" class="form-label fw-bolder">Nombre</label>
+                <input class="form-control" type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group my-2">
+                <label for="email" class="form-label fw-bolder">Email</label>
+                <input class="form-control" type="email" id="email" name="_replyto" required>
+              </div>
+            <div class="form-group my-2">
+              <label for="message" class="form-label fw-bolder">Mensaje</label>
+              <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-primary mt-2" type="submit">Enviar</button>
+          </form>
+                  </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                  <div class="mt-3 px-1">
+                    
+                    <p>Enviame un mensaje y te respondere lo antes posible </p>
+                    <p>Tambien tienen mis enlaces a mis redes sociales</p>
+                    <p>Nos vemos</p>
+                  </div>
+                  <div class="mt-53 px-1">
+                    <div class="row"> 
+                      <div class="col-sm-2">
+                        <div class="pb-1">Email:</div>
+                      </div>
+                      <div class="col-sm-10">
+                        <div class="pb-1 fw-bolder">flacosakeo@hotmail.com</div>
+                      </div>
+                      <div class="col-sm-2">
+                        <div class="pb-1">Mis redes sociales:</div>
+                      </div>
+                      <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-1">
+                                <a title="Perfil de Facebook" target="_blank" href="https://www.facebook.com/eduardoruben.lazarte" ><img src="assets/facebook.png" alt="" id="iconos" ></a>
+                            </div>
+                            <div class="col-2">
+                                <a title="Enviar un Whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=5493885010974" class="btn-wsp" target="_blank"><img src="assets/wasap.png" alt="" id="iconos"></a>
+                            </div>
+                            <div class="col">
+                                <a title="Perfil de Linkedin" target="_blank" href="https://www.linkedin.com/in/eduardo-lazarte-38b8347a/" class="btn-wsp" target="_blank"><img src="assets/linkedin.png" alt="" id="iconos"></a>
+                            </div>
+                        </div>
+                        
+                      </div>
+              
+                      
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</body>
